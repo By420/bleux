@@ -1,0 +1,212 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+ 
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 0.01% 10%;
+    background-color: #1e172f;
+  }
+ 
+  li{
+    list-style: none;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  header li {
+    list-style: none;
+  }
+  .menuprimeraparte ul{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .menuprimeraparte{
+    width: 40%;
+  }
+  .imgheader{
+   
+    width: 15%;
+  }
+  .imgheader img{
+    object-fit: cover;
+    width: 155px;
+    height: 65px;
+  }
+  .download{
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #8840d5 10%, #077dd5 90%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+ 
+  
+  
+  .primeraparte{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e2550;
+  }
+  .textoprimeraparte{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    color: white;
+    
+    width: 50%;
+    box-sizing: border-box;
+    padding: 8% 0% 5% 8%;
+  }
+  .textoprimeraparte h1{
+    font-size: 100px;
+  }
+  .textoprimeraparte p{
+    font-size: 30px;
+  }
+  .botonesprimeraparte{
+    border: 3px solid #564f70;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    padding: 6px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+  }
+  .itnow{
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #f87aba;
+    font-size: 20px;  
+  }
+ 
+
+  .features{
+    padding: 10px 45px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #2e2550;
+    color: white;
+    font-size: 20px;
+  }
+ 
+  
+  
+  .imageprimeraparte{
+    box-sizing: border-box; 
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 50%;
+    height: 800px; 
+    align-items: end;
+    padding: 10% 10% 5% 10%;
+    background-image: url(../images/fondo.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+  .imageprimeraparte img{
+    filter: brightness(1);
+    width: 260px;
+    height: 530px;
+  }
+ @media screen and (max-width: 1004px) {
+  .menuprimeraparte {
+    width: 60%;
+  }
+ }
+ @media screen and (max-width: 829px) {
+  .menuprimeraparte {
+    width: 70%;
+  }
+ }
+ @media screen and (max-width: 585px) {
+  .menuprimeraparte {
+    width: 90%;
+  }
+ }
+ @media screen and (max-width: 1498px) {
+  .botonesprimeraparte {
+    width: 65%;
+  }
+}
+ @media screen and (max-width: 1410px) {
+    .botonesprimeraparte {
+      width: 70%;
+    }
+  }
+ @media screen and (max-width: 1292px) {
+      .botonesprimeraparte {
+        width: 80%;
+      }
+    }
+   @media screen and (max-width: 1150px) {
+      .botonesprimeraparte {
+        width: 85%;
+      }
+    }
+      @media screen and (max-width: 1150px) {
+        .botonesprimeraparte {
+          width: 95%;
+        }
+      }
+      @media screen and (max-width: 952px) {
+        .botonesprimeraparte {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 900px) {
+        .botonesprimeraparte {
+          width: 110%;
+        }
+      }
+      @media screen and (max-width: 818px) {
+        .botonesprimeraparte {
+          width: 120%;
+        }
+      }
+      @media screen and (max-width: 752px) {
+        .botonesprimeraparte {
+          width: 130%;
+        }
+      }
+      @media screen and (max-width: 692px) {
+        .botonesprimeraparte {
+          width: 140%;
+        }
+      }
+      @media screen and (max-width: 652px) {
+        .botonesprimeraparte {
+          width: 150%;
+        }
+      }
+      @media screen and (max-width: 604px) {
+        .botonesprimeraparte {
+          width: 160%;
+        }
+      }
+      @media screen and (max-width: 566px) {
+        .botonesprimeraparte {
+          width: 170%;
+        }
+      }
+      @media screen and (max-width: 530px) {
+        .botonesprimeraparte {
+          width: 180%;
+        }
+      }
